@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.API_BASE_URL || 'https://your-northflank-domain.com';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://your-northflank-domain.com';
 
 // 健康检查
 export async function getHealth() {
